@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * @author: yanzhixian
  * @create: 2020-07-07 22:37
  */
-//@CacheConfig(cacheNames="emp"/*,cacheManager = "employeeCacheManager"*/) //抽取缓存的公共配置
+@CacheConfig(cacheNames="emp",cacheManager = "employeeCacheManager") //抽取缓存的公共配置
 @Service
 public class EmployeeService {
 
