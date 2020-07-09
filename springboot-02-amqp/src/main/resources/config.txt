@@ -1,0 +1,27 @@
+http://xxxx:15672/
+guest/guest
+
+
+exchanges:添加三个
+exchange.direct
+direct
+durable
+
+exchange.fanout
+fanout
+durable
+
+exchange.topic
+topic
+durable
+
+Queues:添加四个
+yzx   durable
+yzx.news   durable
+yzx.emps   durable
+kobe.news  durable
+
+开始绑定  #匹配0个或多个
+yzx.#
+
+*.news
